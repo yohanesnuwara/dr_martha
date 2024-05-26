@@ -3,6 +3,12 @@ dr. (doctor) MARTHA stands for Modular AI for Robust Telemedicine and Health Ana
 
 ## Eye health
 
+| Column 1 | Column 2 | Column 3 |
+|---|---|---|
+| ![Image 1 Text](image1.jpg) | ![Image 2 Text](image2.jpg) | ![Image 3 Text](image3.jpg) |
+| ![Image 1 Text](image1.jpg) | ![Image 2 Text](image2.jpg) | ![Image 3 Text](image3.jpg) |
+
+
 ## Teeth health
 
 ## Tongue health
