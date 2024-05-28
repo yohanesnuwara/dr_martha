@@ -16,4 +16,9 @@ dr. (doctor) MARTHA stands for Modular AI for Robust Telemedicine and Health Ana
 
 ## Facial skin health
 
+Multiple face problems: acne, acne scars, blackhead, whitehead, pimples, crystalline, cystic, milium, papular, purulent, and dermatitis
+
+<img src="https://github.com/yohanesnuwara/dr_martha/assets/51282928/1a2538f6-bc46-419b-b170-13b39cce2cf3" width="400">
+
+
 > Note: dr. MARTHA has not been tested in any clinical trials. As a proof-of-concept application, it will need collaboration with medical doctors to check the accuracy of diagnosis and prescriptions for example.
