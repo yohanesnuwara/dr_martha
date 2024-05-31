@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Available Doctors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 60%;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .doctor {
+            display: flex; /* Display image and information side by side */
+            margin-bottom: 20px; /* Decrease margin between doctor blocks */
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .doctor:last-child {
+            border-bottom: none;
+        }
+        .doctor img {
+            max-width: 250px; /* Adjust maximum width for the image */
+            height: 150px;
+            margin-right: 20px; /* Add space between image and information */
+        }
+        .doctor .doctor-info {
+            flex-grow: 1; /* Allow information to expand to fill available space */
+        }
+        .doctor h2 {
+            margin: 0 0 5px 0; /* Adjust margin for h2 */
+            color: #333;
+            font-size: 18px; /* Decrease font size for h2 */
+        }
+        .doctor p {
+            margin: 0; /* Remove margin for p */
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Available Doctors</h1>
+        {% for doctor in doctors %}
+        <div class="doctor">
+            <!-- Adjust image size here -->
+            <img src="{{ url_for('static', filename='doctors/' + doctor['Fullname'] + '.png') }}" alt="{{ doctor['Fullname'] }}">
+            <div class="doctor-info">
+                <h2>{{ doctor['Fullname'] }}</h2>
+                <p><b>Degree:</b> {{ doctor['Degree'] }}</p>
+                <p><b>Category:</b> {{ doctor['Category'] }}</p>
+                <p><b>Hospital:</b> {{ doctor['Hospital'] }}</p>
+                <p><b>Experience:</b> {{ doctor['Experience'] }}</p>
+                <p><b>Expertise:</b> {{ doctor['Expertise'] }}</p>
+                <p><b>Procedure:</b> {{ doctor['Procedure'] }}</p>
+            </div>
+        </div>
+        {% else %}
+            <p>No doctors available for the selected health type.</p>
+        {% endfor %}
+    </div>
+</body>
+</html>
