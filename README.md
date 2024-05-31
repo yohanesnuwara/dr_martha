@@ -1,6 +1,9 @@
 # dr. MARTHA
 dr. (doctor) MARTHA stands for Modular AI for Robust Telemedicine and Health Analysis. It is an app that uses Computer Vision to identify key health issues and problems from the patient's photo of eyes, teeth, tongue, and face. It also recommends the treatment, medical procedure, and suggest professional doctors for further diagnosis.
 
+![Dr_Martha (online-video-cutter com)](https://github.com/yohanesnuwara/dr_martha/assets/51282928/35e0a5d9-24e1-443f-badc-2e1f33c46d9e)
+
+
 ## Eye health
 
 |Normal|Blepharitis|Conjunctivitis|
