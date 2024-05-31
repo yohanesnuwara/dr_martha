@@ -24,5 +24,13 @@ Multiple face problems: acne, acne scars, blackhead, whitehead, pimples, crystal
 
 <img src="https://github.com/yohanesnuwara/dr_martha/assets/51282928/1a2538f6-bc46-419b-b170-13b39cce2cf3" width="400">
 
+## Requirements
+* Python==3.11.8
+* Tensorflow==2.15.0
+* Keras==2.15.0
+* NLTK==3.8.1
+* Flask==3.0.3
+
+## How to run the app in VS Code (Desktop version)
 
 > Note: dr. MARTHA has not been tested in any clinical trials. As a proof-of-concept application, it will need collaboration with medical doctors to check the accuracy of diagnosis and prescriptions for example.
