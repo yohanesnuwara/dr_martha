@@ -13,11 +13,6 @@ See our YouTube video of demo --> [LINK]()
 | **Iridocyclitis** | **Keratitis** | **Cataract** |
 |![iridocyclitis](https://github.com/yohanesnuwara/dr_martha/assets/51282928/9df25768-5b03-4b2b-b96f-62bcd723ac85)|![keratitis](https://github.com/yohanesnuwara/dr_martha/assets/51282928/6517e017-0c76-4d93-94d4-976d3322eebe)|![cataract](https://github.com/yohanesnuwara/dr_martha/assets/51282928/60ae29a0-88b7-44e4-8a23-bd548a4337d5)|
 
-
-## Teeth health
-
-## Tongue health
-
 ## Facial skin health
 
 Multiple face problems: acne, acne scars, blackhead, whitehead, pimples, crystalline, cystic, milium, papular, purulent, and dermatitis
