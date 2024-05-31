@@ -35,7 +35,7 @@ Multiple face problems: acne, acne scars, blackhead, whitehead, pimples, crystal
 
 In your PC:
 
-1. Download this repository as ZIP file
+1. Download this repository as [ZIP file](https://github.com/yohanesnuwara/dr_martha/archive/refs/heads/main.zip)
 2. Extract the ZIP file into preferred directory
 3. Download the model weights from [this link](https://zenodo.org/api/records/11402284/files-archive)
 4. Put the downloaded weights inside folder ```/yolo_flask_app/weights/```
@@ -43,7 +43,7 @@ In your PC:
 In your VS Code:
 
 4. Install the above requirements with ```pip install```
-5. Open terminal and go to the directory ```cd SCAN```
+5. Open terminal and go to the directory ```cd yolo_flask_app```
 6. Run the app ```python app.py```
 7. Open the app in browser with URL localhost [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
